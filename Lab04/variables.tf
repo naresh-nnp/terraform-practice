@@ -9,4 +9,14 @@ variable "location" {
 variable "model" {
 
 }
+variable "os" {
+
+}
+variable "env" {
+
+}
+variable "api_key" {
+  sensitive = true
+}
+
 

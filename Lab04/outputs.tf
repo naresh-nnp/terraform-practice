@@ -7,3 +7,13 @@ output "asset_information" {
 output "asset_model" {
   value = "Asset Model: ${var.model}"
 }
+output "asset_os" {
+  value = "Asset OS: ${var.os}"
+}
+output "asset_env" {
+  value = "Asset environment: ${var.env}"
+}
+output "asset_api_key" {
+  value     = "Asset API key: ${var.api_key}"
+  sensitive = true
+}
