@@ -6,3 +6,7 @@ variable "location" {
   type    = string
   default = "hyd"
 }
+variable "model" {
+
+}
+
