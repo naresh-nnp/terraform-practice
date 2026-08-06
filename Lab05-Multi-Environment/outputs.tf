@@ -1,3 +1,6 @@
+output "application_name" {
+  value = var.application_name
+}
 output "deployment_information" {
   value = "Deployment Name: ${local.deployment_name}"
 }
