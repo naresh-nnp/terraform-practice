@@ -15,8 +15,8 @@ override.tf.json
 *_override.tf.json
 
 # Variable files containing secrets
-#*.tfvars
-#*.tfvars.json
+*.tfvars
+*.tfvars.json
 
 # CLI configuration
 .terraformrc
