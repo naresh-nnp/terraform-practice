@@ -1,0 +1,3 @@
+application_name = "inventory"
+environment      = "default"
+owner_name       = "Alice"
