@@ -1,24 +1,24 @@
-employee_name = "Naresh"
+employee_name = "Prod-Naresh"
 environment = "prod"
 employee_age = 35
 is_fulltime = true
 skills = [
-    "Azure",
-    "Kubernetes",
-    "Openshift"
+    "Azure-prod",
+    "Kubernetes-prod",
+    "Openshift-Prod"
 ]
 certifications = [
-    "AZ-305",
-    "CKA",
-    "Openshift Administrator"
+    "AZ-305-prod",
+    "CKA-prod",
+    "Openshift Administrator-prod"
 ]
 office = {
-    city = "Bangalore"
-    country = "India"
+    city = "Bangalore-prod"
+    country = "India-prod"
 }
-manager_name = "Bob"
+manager_name = "Bob-prod"
 laptop = {
-    brand = "Dell"
+    brand = "Dell-prod"
     ram = 64
-    os = "Windows"   
+    os = "Windows-prod"   
 }

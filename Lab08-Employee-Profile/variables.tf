@@ -1,14 +1,14 @@
 variable "employee_name" {
     type = string
-    validation {
+    /* validation {
         condition = var.employee_name == "Naresh"
         error_message = "Employee name must be 'Naresh'"
-    }
+    } */
 }
 variable "environment" {
     type = string
     validation {
-        condition = var.environment == "dev" || var.environment == "prod"
+        condition = var.environment == "dev" || var.environment == "prod" || var.environment == "default"
         error_message = "environment must be either dev or prod"
     }
 }

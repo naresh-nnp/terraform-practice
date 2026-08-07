@@ -1,5 +1,5 @@
 employee_name = "Naresh"
-environment = "dev"
+environment = "default"
 employee_age = 18
 is_fulltime = "true"
 skills = [
