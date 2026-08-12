@@ -10,4 +10,4 @@ environment_regions = {
     test = "westus"
     prod = "centralus"
 }
-enable_monitoring = true
+enable_monitoring = false

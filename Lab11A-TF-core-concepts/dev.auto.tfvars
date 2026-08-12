@@ -1,1 +1,1 @@
-application_name = "inventory-dev-auto"
+// application_name = "inventory-dev-auto"
