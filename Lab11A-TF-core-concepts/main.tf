@@ -30,3 +30,31 @@ resource "random_string" "suffix_length" {
   upper = false
   special = false
 }
+/* module "application" {
+  source = "./modules/application"
+
+  application_name = "inventory-module-app"
+  environment = "dev-module"
+  region = "eastus"
+} */
+module "application_stamps" {
+  source = "./modules/application"
+  count = length(local.application_stamps)
+
+  application_name = var.application_name
+  environment = local.application_stamps[count.index].environment
+  region = local.application_stamps[count.index].region
+  min_node_count = local.application_stamps[count.index].min_node_count
+  max_node_count = local.application_stamps[count.index].max_node_count
+}
+
+module "application_regions_module" {
+  source = "./modules/application"
+  for_each = local.application_regions
+
+  application_name = var.application_name
+  environment = each.key
+  region = each.value.region
+  min_node_count = each.value.min_node_count
+  max_node_count = each.value.max_node_count
+}
