@@ -1,0 +1,27 @@
+----- Topics Covered -----
+
+Resource + Core Workflow
+Input Variable
+Local
+Output
+String Interpolation
+Required Provider
+Referencing Resource Output
+Documentation
+tfvars + Multiple Environments
+Sensitive Inputs/Outputs
+BASH Environment Variables
+Variable Precedence
+Variable Types
+Validation
+Comments
+Workspaces
+List + Count
+Map + for_each
+Boolean + Conditional
+Module Registry
+Create First Module
+Module Encapsulation
+count.index
+for_each + each.key/value
+-----------------------------
